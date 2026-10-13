@@ -162,15 +162,18 @@ p {
 }
 
 .main-nav>a:hover {
-  color: var(--teal)
+  color: var(--teal);
+  background-color: transparent;
 }
 
 .nav-cta {
   background: var(--teal);
   color: white;
-  padding: 14px 18px;
+  padding: 13px 17px;
   font-size: 13px;
-  letter-spacing: .01em
+  letter-spacing: .01em;
+  transition:0.3s;
+  border: 1px solid var(--teal);
 }
 
 .nav-cta span,
